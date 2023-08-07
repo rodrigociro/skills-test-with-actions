@@ -38,5 +38,6 @@ jobs:
       #Add test
       - name: Run markdown lint
         run: |
+          _underscore_
           npm install remark-cli remark-preset-lint-consistent
           npx remark . --use remark-preset-lint-consistent --frail
